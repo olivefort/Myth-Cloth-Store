@@ -6,7 +6,7 @@
     
     <div class="col s4 text-center">
         <h3 class="header">{{ $rayon->nom }}</h3>
-        <p class="nbprod">Nombre de produits disponibles : {{ $rayon->produits()->count() }}</p><br>
+        <p class="nbprod">Nombre de produits disponibles : <span>{{ $rayon->produits()->count() }}</span></p><br>
     </div>
     
 

@@ -73,11 +73,18 @@ section {
 
 .nbprod{
   font-family: 'Caesar Dressing';
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+.nbprod span{
+  color: #fcea4a;
 }
 .prodimg{
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
+  border: 2px solid transparent;
+}
+.prodimg:hover{
+  border: 2px solid #fcea4a;
 }
 .prodprice{
   margin-bottom: 0.5rem;
@@ -136,6 +143,15 @@ section {
   margin-bottom: 3rem;
   margin-top: 4rem;
 }
+.rayonunit:hover{
+  color: #fcea4a;
+}
+.rayonunit img{
+  border: 2px solid transparent;
+}
+.rayonunit img:hover{
+  border: 2px solid#fcea4a;
+}
 .fig{
   display: flex;
   flex-direction: column;
@@ -159,7 +175,7 @@ section {
   grid-template-columns: repeat(12, 1fr);
   justify-items: center;
   align-items: center;
-  border: #e9605c 1px solid;
+  border: #fcea4a 1px solid;
   font-family: 'Caesar Dressing';
 }
 
@@ -184,7 +200,7 @@ p{
 .logopanier:hover{
   
   text-decoration: none;
-  color: #f6993f;
+  color: #fcea4a;
 }
 .nbpan{
   font-family: 'Caesar Dressing';
@@ -195,7 +211,7 @@ p{
   -webkit-text-stroke-color: #000000;
 }
 .nbpan:hover{
-  color: #f6993f;
+  color: #fcea4a;
 }
 
 .empty{
@@ -263,7 +279,7 @@ p{
 
 .btnpanier:hover{
   text-decoration: none;
-  color: #f6993f;
+  color: #fcea4a;
 }
 .supx{
   grid-column: 11/12;
@@ -278,7 +294,7 @@ p{
 }
 .sup:hover{
   text-decoration: none;
-  color: #f6993f;
+  color: #fcea4a;
 }
 .ajout{
   color: #212529;
@@ -286,15 +302,16 @@ p{
 }
 .ajout:hover{
   text-decoration: none;
-  color: #f6993f;
+  color: #fcea4a;
 }
 .voir{
   color: #212529;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 .voir:hover{
   text-decoration: none;
-  color: #f6993f;
+  color: #fcea4a;
 }
 .footpan{
   display: flex;
@@ -315,7 +332,7 @@ p{
 
 .footpan a:hover{
   text-decoration: none;
-  color: #f6993f;
+  color: #fcea4a;
 }
 
 body {
@@ -326,7 +343,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f8fafc;
+  background-color: #b29ace;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
